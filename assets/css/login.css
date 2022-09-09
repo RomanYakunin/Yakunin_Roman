@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    align-items: center;
+    justify-content: center;
+}
+
+a{
+    color: #be57d5;
+    text-decoration: none;
+}
+ 
+p{
+    margin: 10px 0;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+input{
+    margin: 3px 0;
+    padding: 10px;
+    border:unset;
+    border-bottom: 2px solid #e3e3e3;
+    outline:none;
+}
+
+button{
+    color: #ffffff;
+    padding: 10px;
+    background: #a811da;
+    margin-top: 10px;
+    border-radius: 50px;
+    border: unset;
+    cursor: pointer;
+}
+.msg{
+    color: rgb(211, 0, 42);
+    border: 2px solid #a811da;
+    border-radius: 3px;
+    text-align: center;
+    font-weight: bold;
+}
+.profileimg{
+    width: 20%; 
+    border-radius: 500px; /* Радиус скругления */
+    border: 3px solid #a811da; /* Параметры рамки */
+    box-shadow: 0 0 20px #666; /* Параметры тени */
+}
